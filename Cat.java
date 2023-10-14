@@ -7,6 +7,10 @@ class Cat extends Animal {
 		this.name = name;
 	}
 	
+	public Cat() {
+		super();
+	}
+	
 	public String getName() {
 		return name;
 	}

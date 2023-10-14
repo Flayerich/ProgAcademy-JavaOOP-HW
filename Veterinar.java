@@ -6,6 +6,10 @@ class Veterinarian {
 	public Veterinarian(String name) {
 		this.name = name;
 	}
+	public Veterinarian() {
+		super();
+	}
+	
 	public void treatment(Animal animal) {
 		System.out.println(name + " лікує тваринку: " + animal.getRation() + ", колір: " 
 				+ animal.getColor() + ", і вага: " 
