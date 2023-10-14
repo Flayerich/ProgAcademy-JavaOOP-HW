@@ -1,0 +1,14 @@
+package hw2;
+
+class Veterinarian {
+	private String name;
+	
+	public Veterinarian(String name) {
+		this.name = name;
+	}
+	public void treatment(Animal animal) {
+		System.out.println(name + " лікує тваринку: " + animal.getRation() + ", колір: " 
+				+ animal.getColor() + ", і вага: " 
+				+ animal.getWeight());
+	}
+}
