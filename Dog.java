@@ -1,6 +1,7 @@
 package hw2;
 
 class Dog extends Animal {
+	
 	private String name;
 	
 	public Dog(String ration, String color, int weight, String name) {
@@ -31,6 +32,11 @@ class Dog extends Animal {
 	@Override
 	public void sleep() {
 		System.out.println("Собачка спить");
+	}
+	
+	@Override
+	public String toString() {
+		return "Dog [name=" + name + "]";
 	}
 	
 }
