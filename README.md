@@ -1,1 +1,1 @@
-# ProgAcademy-JavaOOP-HW2
+# ProgAcademy-JavaOOP-HW
