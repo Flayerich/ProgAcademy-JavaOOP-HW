@@ -75,6 +75,6 @@ public class Group {
 		return res;
 	}
 	public void sortStudentsByLastName() {
-	    Arrays.sort(students, new LastNameComparator());
+	    Arrays.sort(students, Comparator.nullLast(new LastNameComparator());
 	}
 }
